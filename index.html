@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bewerbung – Softwareentwickler</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#top">Nico • Bewerbung</a>
+
+      <nav class="menu">
+        <a href="#about">Über mich</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+
+      <button class="btn btn-ghost" id="themeToggle" type="button" aria-label="Dark Mode umschalten">
+        🌙 Dark Mode
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Ausbildung • Softwareentwicklung</p>
+          <h1>Hi, ich bin <span class="accent">Nico</span>.</h1>
+          <p class="lead">
+            Ich suche einen Ausbildungsplatz als Softwareentwickler und zeige meine Motivation
+            bewusst durch diese Bewerbungs-Website.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Kontakt</a>
+          </div>
+
+          <p class="mini">
+            
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Quick Facts</h2>
+          <ul class="list">
+            <li><strong>Ziel:</strong> Ausbildung Softwareentwicklung</li>
+            <li><strong>Fokus:</strong> Web & Programmierlogik</li>
+            <li><strong>Stärken:</strong> motiviert, strukturiert, lernbereit</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Über mich</h2>
+        <p>
+          Ich interessiere mich sehr für Computer, wie sie funktionieren und eben auch die Software die dahinter steckt.
+          Wie Anwendungen funktionieren, wie man sie erstellt und wie man Probleme löst. 
+          Das herausfinden von Problemen und diese zu lösen finde ich dabei besonders interessant,
+          weil man immer wieder mit neuen Herausforderungen konfrontiert wird.
+        </p>
+        <p>
+          Diese Website ist Teil meiner Bewerbung  
+        </p>
+      </div>
+    </section>
+
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Technisch</h3>
+            <ul class="list">
+              <li>HTML, CSS (Grundlagen + Layout)</li>
+              <li>JavaScript (Basics)</li>
+              <li>C# (Erste Schritte)</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Arbeitsweise</h3>
+            <ul class="list">
+              <li>sauber strukturieren</li>
+              <li>lernen durch Projekte</li>
+              <li>Probleme Schritt für Schritt lösen</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Kontakt</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>E-Mail</h3>
+            <div class="copy-row">
+              <code id="emailText">nboehm123@outlook.de</code>
+              <button class="btn btn-secondary" type="button" data-copy="#emailText" data-label="E-Mail">
+                Kopieren
+              </button>
+            </div>
+            <p class="hint" id="copyHint"></p>
+          </div>
+
+          <div class="card">
+            <h3>Telefon</h3>
+            <div class="copy-row">
+              <code id="phoneText">+49 15159189284</code>
+              <button class="btn btn-secondary" type="button" data-copy="#phoneText" data-label="Telefonnummer">
+                Kopieren
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Links</h3>
+            <ul class="list">
+              <li><a class="link" href="https://github.com/nicoboehm" target="_blank" rel="noopener">GitHub Profil</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="mini">
+          Diese Website wurde bewusst mit HTML/CSS/JavaScript umgesetzt, um meine Grundlagen in Webentwicklung zu demonstrieren.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Nico • Bewerbungs-Website</p>
+    </div>
+  </footer>
+</body>
+</html>
+
